@@ -1,0 +1,206 @@
+.logo{
+    height: 100px;
+}
+.nav-pills > li.disabled > a,
+.nav-pills > li.disabled > a:hover {
+  background: none;
+  color: #e6e6e6;
+}
+.order{
+    font-weight: bold;
+}
+.jumbotron{
+    margin-bottom: 0px;
+    padding: 5px;
+}
+.lgtext{
+    font-size: 40px;
+}
+.mdtext{
+    font-size: 20px;
+}
+.homebg{
+    padding:20px 0px; 
+    background-image:url(../images/cover.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    margin-bottom:0px;
+}
+.panel-heading{
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 5px 0px;
+    font-family: Arial;
+}
+form label{
+    font-size: 20px;
+    color: #8c8c8c;
+}
+.panel-body{
+    color: #3a3f44;
+    font-family: Calibri;
+    border: 1px #f89406 solid;
+    border-radius: 0px;
+    
+}
+.panel{
+    margin-bottom: 0px;
+    border: 1px #f89406 solid;
+    border-radius: 0px;
+}
+.navbar{
+    margin-bottom: 0px;
+    border-bottom: solid #f89406 2px;
+}
+.nav-tabs li a{
+    background-color: #3a3f44;
+    color:white;
+    border-radius: 0px;
+}
+.tab-content{
+    background: #fff;
+    padding: 20px 0px;
+}
+.tab-pane{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+footer{
+    padding-top: 30px;
+    color: white;
+}
+.orange{
+    color: #f89406;
+}
+.table{
+    background-color: #fff;
+    text-align: left;
+    border: none;
+}
+.form-control{
+    border-radius: 0px;
+}
+label{
+    font-weight: normal;
+    font-size: 15px;
+}
+.step_num{
+    padding: 10px 15px;
+    background-color: #f89406;
+    color: white;
+    border-radius: 50%;
+}
+.fillform .nav-pills>li>a{
+    background: none;
+    font-weight:500;
+    font-size: larger;
+    border: none;
+    color: black;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.fillform .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+background: none;
+border: none;
+background-color:white;
+color:#f89406;
+}
+.fillform .nav-pills>li.disabled>a{
+    cursor: auto;
+}
+
+/************* comment box css *******************************/
+blockquote {
+    position: relative;
+    padding: 0 0 0 40px;
+    margin: 10px 20px;
+    border: none;
+    line-height: 1.6em;
+}
+blockquote:before {
+    content: '\f10e';
+    font-family: 'FontAwesome';
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    position: absolute;
+}
+.msg .msg-inner {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    position: relative;
+    margin-bottom: 22px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+.msg .msg-inner:before,
+.msg .msg-inner:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    top: 100%;
+}
+.msg .msg-inner:after {
+    border-color: #fff transparent transparent transparent;
+    border-width: 18px 18px 0 0;
+}
+.msg .msg-inner:before {
+    border-color: #d9d9d9 transparent transparent transparent;
+    border-width: 20px 20px 0 0;
+    left: 19px;
+}
+.msg blockquote {
+    padding: 0;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    color: #737373;
+}
+.msg blockquote:before {
+    display: none;
+}
+.msg blockquote p {
+    color: #737373;
+}
+.msg .testimonial-author {
+    overflow: hidden;
+}
+.msg .testimonial-author img {
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.msg .msg-author .msg-author-name {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.msg .msg-author cite {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1em;
+    margin: 0;
+    opacity: 0.85;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    filter: alpha(opacity=85);
+    display: block;
+}
+.msg-color .msg-inner {
+    border: 1px solid #ed8323;
+    background: #ed8323;
+}
+.msg-color .msg-inner blockquote,
+.msg-color .msg-inner blockquote p {
+    color: #fff;
+}
+.msg-color .msg-inner:after {
+    border-color: #ed8323 transparent transparent transparent;
+}
+.msg-color .msg-inner:before {
+    border-color: #ed8323 transparent transparent transparent;
+}
